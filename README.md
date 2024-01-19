@@ -73,5 +73,5 @@ The dataset includes a collection of ChatGPT interaction logs in HTML format and
 
 1. İsmail Çakmak:
 2. Göktuğ Gökyılmaz:
-3. Mustafa Harun Sendur:
+3. Mustafa Harun Şendur:
 4. Pınar Şen:
