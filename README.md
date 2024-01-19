@@ -1,4 +1,4 @@
-<img align="left" width="450" height="800" src="banner3.png">
+![WhatsApp Image 2024-01-19 at 19 31 54](banner3.png) <br>
 # ChatGPT Grade Predictor
 
 ### Project Overview
