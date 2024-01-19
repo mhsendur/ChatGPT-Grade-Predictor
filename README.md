@@ -1,5 +1,5 @@
 
-# ChatGPT Grade Predictor
+# CS412 Project : ChatGPT Grade Predictor
 ![WhatsApp Image 2024-01-19 at 19 31 54](banner4.png) <br>
 ### Project Overview
 The ChatGPT Grade Predictor is a Machine Learning project aimed at exploring the correlation between student interactions with ChatGPT and their assignment scores. Leveraging various techniques and numerous machine learning models, this project seeks to predict grades with a focus on creative and innovative approaches.
