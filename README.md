@@ -1,4 +1,4 @@
-<img align="left" width="400" height="400" src="banner2.png">
+![WhatsApp Image 2024-01-19 at 19 31 54](https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/61429361-58a5-4b04-9b11-d64865fcc11d) <br> 
 
 # ChatGPT Grade Predictor
 
