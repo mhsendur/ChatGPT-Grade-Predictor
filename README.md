@@ -30,7 +30,7 @@ checks for the similarity of the question asked with the actual question
 <img width="986" alt="Screenshot 2024-01-19 at 19 01 16" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/23d06cf1-30a3-4ee4-9d2b-c0fdba543ada"> <br> 
 checks if the questions were solved one by one or in a disorganized way
 
-                                AND THERE ARE MANY MORE FEATURES!!!
+                                **There are many more features that we have implemented which can be seen in our ipynb file**
 
 **3. Results:** shows the performance of the model
 <img width="483" alt="Screenshot 2024-01-19 at 19 17 35" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/417c7793-fdfc-41c8-be29-1b917926d845"><br> 
