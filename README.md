@@ -102,9 +102,16 @@ In this phase of the project, we focus on the following steps to train and evalu
   
 ## RESULTS: 
 
-Through our code where we have worked on the random selection of features automatically, we have aimed to get the best R^2 score. Through this implementation, we have produced the set of features which led us to get the best R^2 score in our project. We have also made use of other implementations to get better feature sets such as Information Gain. However, the result of these implementations did not lead to the sets of features to have a better R^2 score.
+Through our code where we have worked on the random selection of features automatically, we have aimed to get the best R^2 score. Through this implementation, we have produced the set of features that led us to get the best R^2 score in our project. We have also made use of other implementations to get better feature sets such as Information Gain. However, the result of these implementations did not lead to the sets of features to have a better R^2 score.
 
-The already presented features that were displayed in the ipynb file of the project were also tested to see if they resulted in a better outcome of prediction for the homework scores. However, this test result of prediction resulted in a negative R^2 score.
+The already presented features that were displayed in the .ipynb file of the project were also tested to see if they resulted in a better outcome of prediction for the homework scores. However, this test result of prediction resulted in a negative R^2 score.
+
+Here there is both base code R^2 and mean squared error and our best R^2 score both scores are preprocessed and cross-verified:
+![basecode_results](https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/123778340/0e67b519-dd3c-4270-b6b2-011d42f2c35d)
+
+![bestcode_results](https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/123778340/42909031-f69f-4cf1-acc0-838e4b98af85)
+
+
 
 <img width="877" alt="Screenshot 2024-01-19 at 18 48 13" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/15192c28-11ae-452f-b880-61ef938ee1f9"> <br> 
 
