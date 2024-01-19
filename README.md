@@ -22,13 +22,13 @@ As a part of our preprocessing for the project can be seen above, we have worked
 **2. Feature engineering:** For our Feature Engineering section in our project we have aimed to select, manipulate, and transform raw data into meaningful and relevant features that enhance the performance and accuracy of the model. We have decided to display some of the actions that we have taken through images and brief explanations below.
    
 <img width="724" alt="Screenshot 2024-01-19 at 18 59 45" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/32762329-08bd-4473-9bed-64dd6e4db398"> <br> 
-gives sentimental value of the user prompts by emotion analysis
+- Gives sentimental value of the user prompts by emotion analysis
 
 <img width="855" alt="Screenshot 2024-01-19 at 19 01 05" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/8047ac16-9bc0-4648-84ad-9b6312b75344"> <br> 
-checks for the similarity of the question asked with the actual question
+- Checks for the similarity of the question asked with the actual question
 
 <img width="986" alt="Screenshot 2024-01-19 at 19 01 16" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/23d06cf1-30a3-4ee4-9d2b-c0fdba543ada"> <br> 
-checks if the questions were solved one by one or in a disorganized way
+- Checks if the questions were solved one by one or in a disorganized way
 
                                 **There are many more features implemented which can be seen in the ipynb file**
 
@@ -55,20 +55,19 @@ Then we continued on our preprocessing procedure, being more considerate and car
 8.  Removing words that include numbers
 9.  Removing words that include less than 3 characters or more than 25 characters
     (Unnecessarily short or long words were not preserved due to their irrelevancy in the analysis)
-11. Removing numbers
-12. Removing user data with less than 5 prompts
+10. Removing numbers
+11. Removing user data with less than 5 prompts
 
-After this procedure of preprocessing, we then have moved on to work on feature engineering.
+After this procedure of preprocessing, we then moved on to work on feature engineering.
 
 ### B. Feature Engineering:
 
-In the feature engineering part of the project, we have worked on producing creative, and effective features that aimed to better predict the scores for the homework. These features that were developed and use to predict scores can be categorised as below.
+In the feature engineering part of the project, we have worked on producing creative, and effective features that aimed to better predict the scores for the homework. These features that were developed and used to predict scores can be categorised as below.
 
 1. **Sentiment Analysis:**
 
 - **Emotion Analysis (disgust, fear, joy, sadness, surprise, trust, anticipation, positive, negative):** Utilizing tools for automated sentiment analysis to determine the emotional tone of user messages. Our hypothesis was to find a link between negative emotions such as disgust, sadness and fear and being confused or frustrated, which will affect the grade of the homework.
 - - **Polarity and Subjectivity Scores (total\_subjectivity, avg\_subjectivity, total\_polarity, avg\_ polarity):** Quantifying the sentiment of user messages in terms of positivity/negativity (polarity) and objectivity/subjectivity. TextBlob library is used and insights about the overall sentiment and subjectivity of user interactions are provided.
-- **Friendliness Level:** Average friendliness of the users was assessed by analyzing greetings and polite expressions. We assumed a friendlier tone could change the effectiveness of ChatGPT's tendency to solve questions. The mean vector of these words is computed using the Word2Vec model, resulting in a vector representation of "friendliness". The friendliness score is calculated by measuring the cosine similarity between the user text vector and the predefined "friendly" vector. We ended up deleting this feature because it did not improve the model and downloaded 1.5 GB every time the cell ran.
   
 2. **User Interaction Patterns and Language Use:**
 
@@ -84,12 +83,23 @@ In the feature engineering part of the project, we have worked on producing crea
 
 4. **Question-Answering Behavior and Sequence:**
 
-- **Resolution Time for Questions (Q1, Q2…):** Best cosine similarty according to spesific question.
+- **Resolution Time for Questions (Q1, Q2…):**  Best cosine similarity according to specific question. (TFIDF was used in this procedure to create vectors which was then led to check the cosine similarity in our analysis. BoW and Word2Vec were also used yet TFIDF resulted in a better outcome hence we have then moved on with the implementation which made use of TFIDF.)
 - **Question attempt count (Q1\_count, Q2\_count…):** The primary goal of these features (Q1_count, Q2_count, etc.) is to quantify the number of attempts or prompts made to solve each specific question in a dataset. 
 - **Order of Questioning (solve\_one\_by\_one):** Assessing whether the user followed a logical flow or jumped between questions in a disorganized manner.
 
 5. Other Features: All the included features that are not explained in detail above can be seen in the heatmap in the following section (promt\_avg\_char, respone\_avg\_char, smog\_index and the existing features).
-   
+
+6. Further Analysis - Model Training and Evaluation:
+
+In this phase of the project, we focus on the following steps to train and evaluate our models:
+
+- In the regression part of the project we have worked on our analysis by making use of RandomForest, Decision Tree, and Linear Regression. Comparatively, the best outcome was produced through the RandomForest implementation hence we have continued our project along with that implementation.
+- Cross-validation: We have assessed the performance of the model and ensured its generalizability.
+- Splitting the dataset into training and test: We have ensured that both datasets are representative of the overall distribution.
+- Stratification: Since the dataset is highly skewed, stratification ensures that each split (e.g., training and testing sets) has a proportionate representation of the different classes or categories present in the dataset. Stratification was used togetherly along with Cross-validation implementation in our project.
+- Feature scale normalization: Ensuring that all features contribute equally to the model training.
+- Regularization: In this part of the project, features were penalized to have a better outcome in the prediction of grades for the homework. 
+  
 ## RESULTS: 
 
 <img width="877" alt="Screenshot 2024-01-19 at 18 48 13" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/15192c28-11ae-452f-b880-61ef938ee1f9"> <br> 
