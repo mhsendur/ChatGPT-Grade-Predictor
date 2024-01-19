@@ -1,4 +1,4 @@
-<img align="left" width="180" height="800" src="banner3.png">
+<img align="left" width="180" height="620" src="banner3.png">
 # ChatGPT Grade Predictor
 
 ### Project Overview
