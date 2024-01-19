@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-01-19 at 19 31 54](banner3.png) <br>
+![WhatsApp Image 2024-01-19 at 19 31 54](banner4.png) <br>
 # ChatGPT Grade Predictor
 
 ### Project Overview
