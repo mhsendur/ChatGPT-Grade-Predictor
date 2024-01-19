@@ -107,11 +107,10 @@ Through our code where we have worked on the random selection of features automa
 The already presented features that were displayed in the .ipynb file of the project were also tested to see if they resulted in a better outcome of prediction for the homework scores. However, this test result of prediction resulted in a negative R^2 score.
 
 Here there is both base code R^2 and mean squared error and our best R^2 score both scores are preprocessed and cross-verified:
-![basecode_results](https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/123778340/0e67b519-dd3c-4270-b6b2-011d42f2c35d)
 
-![bestcode_results](https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/123778340/42909031-f69f-4cf1-acc0-838e4b98af85)
+![grades](https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/123778340/a886bfa3-d5f6-4728-8faa-f5a0359f1031)
 
-
+Feature set we used to get the best result = ['code', '#hyperparameter', '#thanks', 'anger', 'Q_0', 'total_polarity', 'trust', 'smog_index', '#split', '#math_expressions_gpt', '#entropy', 'grade']
 
 <img width="877" alt="Screenshot 2024-01-19 at 18 48 13" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/15192c28-11ae-452f-b880-61ef938ee1f9"> <br> 
 
