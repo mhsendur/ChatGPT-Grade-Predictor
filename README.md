@@ -12,7 +12,7 @@ The dataset includes a collection of ChatGPT interaction logs in HTML format and
 - To develop and evaluate models capable of predicting assignment scores.
 - To explore creative and novel approaches in data handling and model creation.
 
-## OVERVIEW OF THE REPOSITORY: (_Link different script and code pieces used and explain their function for the project_)
+# OVERVIEW OF THE REPOSITORY: (_Link different script and code pieces used and explain their function for the project_)
 
 1. Preprocessing:
   1. link:
@@ -24,7 +24,7 @@ The dataset includes a collection of ChatGPT interaction logs in HTML format and
   1. link:
   2. function: the performance and accuracy of the model
 
-## METHODOLOGY: (_High-level explanation of things considered and solutions offered_.)
+# METHODOLOGY: (_High-level explanation of things considered and solutions offered_.)
 
 ### A. Preprocessing:
 
