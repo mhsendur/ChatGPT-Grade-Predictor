@@ -76,8 +76,8 @@ checks if the questions were solved one by one or in a disorganized way
 
 4. **Question-Answering Behavior and Sequence:**
 
-- **Resolution Time for Questions (Q1, Q2…):** Tracking how many prompts were needed to resolve each question, indicating the depth and complexity of the inquiry.
-- **Retroactive Check (Q1\_count, Q2\_count…):** Identifying if and how often users return to previous topics, suggesting review or confusion.
+- **Resolution Time for Questions (Q1, Q2…):** Best cosine similarty according to spesific question.
+- **Number of prompts to solve that question (Q1\_count, Q2\_count…):** The primary goal of these features (Q1_count, Q2_count, etc.) is to quantify the number of attempts or prompts made to solve each specific question in a dataset. 
 - **Order of Questioning (solve\_one\_by\_one) :** Assessing whether the user followed a logical flow or jumped between questions in a disorganized manner.
 
 5. Other Features: All the included features that are not explained in detail above can be seen in the heatmap on the following section (promt\_avg\_char, respone\_avg\_char, smog\_index and the existing features).
