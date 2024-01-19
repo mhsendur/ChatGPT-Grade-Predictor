@@ -40,17 +40,18 @@ checks if the questions were solved one by one or in a disorganized way
 
 ### A. Preprocessing:
 
+1. Removing html tags
+2. Converting text to lowercase
+3. Removing special characters and punctuation
+4. Tokenization
+5. Removing stop words
+6. Lemmatization
+
 1. Removing user data with less than 5 prompts
-2. Removing html tags
-3. Converting text to lowercase
-4. Removing special characters and punctuation
-5. Tokenization
-6. Removing stop words
-7. Stemming
-8. Stratification: since the dataset is highly skewed, stratification ensures that each split (eg. training and testing sets) has a proportionate representation of the different classes or categories present in the dataset.
-9. Splitting the dataset into training and test.
-10. Feature scale normalization: ensures that all features contribute equally to the model training
-11. Cross-validation: assesses the performance of the model.
+9. Stratification: since the dataset is highly skewed, stratification ensures that each split (eg. training and testing sets) has a proportionate representation of the different classes or categories present in the dataset.
+10. Splitting the dataset into training and test.
+11. Feature scale normalization: ensures that all features contribute equally to the model training
+12. Cross-validation: assesses the performance of the model.
 
 ### B. Feature Engineering:
 
