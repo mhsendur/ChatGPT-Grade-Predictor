@@ -56,13 +56,17 @@ Then we continued on our preprocessing procedure, being more considerate and car
 9. Removing words that include less than 3 characters or more than 25 characters (Unnecessarily short or long words were not preserved due to their irrelevancy in the analysis)
 10. Removing user data with less than 5 prompts
 
+After this procedure of preprocessing, we then have moved on to work on feature engineering.
+
 ### B. Feature Engineering:
+
+In the feature engineering part of the project, we have worked on producing creative, and effective features that aimed to better predict the scores for the homework. These features that were developed and use to predict scores can be categorised as below.
 
 1. **Sentiment Analysis:**
 
-- **Emotion Analysis (disgust, fear, joy, sadness, surprise, trust, anticipation, positive, negative):** Utilizing tools for automated sentiment analysis to determine the emotional tone of user messages. Our hypothesis was to find a link between negative emotions such as disgust, sadness and fear and being confused or frustrated, which will have an effect on the grade of the homeworks.
+- **Emotion Analysis (disgust, fear, joy, sadness, surprise, trust, anticipation, positive, negative):** Utilizing tools for automated sentiment analysis to determine the emotional tone of user messages. Our hypothesis was to find a link between negative emotions such as disgust, sadness and fear and being confused or frustrated, which will affect the grade of the homework.
 - - **Polarity and Subjectivity Scores (total\_subjectivity, avg\_subjectivity, total\_polarity, avg\_ polarity):** Quantifying the sentiment of user messages in terms of positivity/negativity (polarity) and objectivity/subjectivity. TextBlob library is used and insights about the overall sentiment and subjectivity of user interactions are provided.
-- **Friendliness Level:** Average friendliness of the users were assessed by analyzing greetings and polite expressions. We assumed a more friendlier tone could change the effectiveness of ChatGPT's tendency to solve questions. The mean vector of these words is computed using the Word2Vec model, resulting in a vector representation of "friendliness". The friendliness score is calculated by measuring the cosine similarity between the user text vector and the predefined "friendly" vector. We ended up deleting this feature because it did not improve the model and dowloaded 1.5 GB everytime the cell ran.
+- **Friendliness Level:** Average friendliness of the users was assessed by analyzing greetings and polite expressions. We assumed a friendlier tone could change the effectiveness of ChatGPT's tendency to solve questions. The mean vector of these words is computed using the Word2Vec model, resulting in a vector representation of "friendliness". The friendliness score is calculated by measuring the cosine similarity between the user text vector and the predefined "friendly" vector. We ended up deleting this feature because it did not improve the model and downloaded 1.5 GB every time the cell ran.
   
 2. **User Interaction Patterns and Language Use:**
 
@@ -80,15 +84,15 @@ Then we continued on our preprocessing procedure, being more considerate and car
 
 - **Resolution Time for Questions (Q1, Q2…):** Best cosine similarty according to spesific question.
 - **Question attempt count (Q1\_count, Q2\_count…):** The primary goal of these features (Q1_count, Q2_count, etc.) is to quantify the number of attempts or prompts made to solve each specific question in a dataset. 
-- **Order of Questioning (solve\_one\_by\_one) :** Assessing whether the user followed a logical flow or jumped between questions in a disorganized manner.
+- **Order of Questioning (solve\_one\_by\_one):** Assessing whether the user followed a logical flow or jumped between questions in a disorganized manner.
 
-5. Other Features: All the included features that are not explained in detail above can be seen in the heatmap on the following section (promt\_avg\_char, respone\_avg\_char, smog\_index and the existing features).
+5. Other Features: All the included features that are not explained in detail above can be seen in the heatmap in the following section (promt\_avg\_char, respone\_avg\_char, smog\_index and the existing features).
    
 ## RESULTS: 
 
 <img width="877" alt="Screenshot 2024-01-19 at 18 48 13" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/15192c28-11ae-452f-b880-61ef938ee1f9"> <br> 
 
-Distrubiution of homework scores show how uneven and skewed the data is.
+Distribution of homework scores show how uneven and skewed the data is.
 
 ![WhatsApp Image 2024-01-19 at 19 41 56](https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/313d09fa-646e-48fd-b60f-077a974d8ad6) <br> 
 
@@ -96,11 +100,11 @@ Grade distribution after the outliers that have low grades and low prompt number
 
 <img width="901" alt="Screenshot 2024-01-19 at 18 48 55" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/e8d0151c-5f42-449c-b39d-dcbaff947ad9"> <br> 
 
-Boxplot showing the distribution of grades given that "thanks" was used or not.
+Boxplot showing the distribution of grades given whether "thanks" was used or not.
 
 ![heatmap_features](https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/f43dc6aa-8aa2-4974-8506-0772d7e082df) <br> 
 
-Heatmap of the existing features and added engineered features and their correlations shown on a heatmap.
+Heatmap of the existing features and added engineered features and their correlations are shown on a heatmap.
 
 <img width="879" alt="Screenshot 2024-01-19 at 18 49 04" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/5681afa1-28db-4c98-b16a-6487d6229ec9"> <br> 
 
