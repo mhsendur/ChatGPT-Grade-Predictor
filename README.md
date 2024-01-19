@@ -53,9 +53,10 @@ Then we continued on our preprocessing procedure, being more considerate and car
 
 7.  Removing further non-ASCII characters (Irrelevant letters were not preserved)
 8.  Removing words that include numbers
-9.  Removing words that include less than 3 characters or more than 25 characters (Unnecessarily short or long words were not preserved due to their irrelevancy in the analysis)
-10. Removing numbers
-11. Removing user data with less than 5 prompts
+9.  Removing words that include less than 3 characters or more than 25 characters
+    (Unnecessarily short or long words were not preserved due to their irrelevancy in the analysis)
+11. Removing numbers
+12. Removing user data with less than 5 prompts
 
 After this procedure of preprocessing, we then have moved on to work on feature engineering.
 
