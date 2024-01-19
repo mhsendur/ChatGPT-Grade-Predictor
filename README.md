@@ -92,7 +92,7 @@ In the feature engineering part of the project, we have worked on producing crea
 
 <img width="877" alt="Screenshot 2024-01-19 at 18 48 13" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/15192c28-11ae-452f-b880-61ef938ee1f9"> <br> 
 
-Distribution of homework scores show how uneven and skewed the data is.
+The distribution of homework scores shows how uneven and skewed the data is.
 
 ![WhatsApp Image 2024-01-19 at 19 41 56](https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/313d09fa-646e-48fd-b60f-077a974d8ad6) <br> 
 
@@ -119,10 +119,10 @@ Average R^2 and MSE values of the model with cross-validation and scalar
 Comparison of R2 scores of different methods.
 
 ## TEAM CONTRIBUTIONS: 
-1. İsmail Çakmak: Conversational dynamics and responsiveness, cross validation and normalization.
-2. Göktuğ Gökyılmaz: Question answering behavior and responsiveness, testing the subsets of features.
+1. İsmail Çakmak: Conversational dynamics and responsiveness, cross-validation and normalization.
+2. Göktuğ Gökyılmaz: Question-answering behavior and responsiveness, testing the subsets of features.
 3. Mustafa Harun Şendur: User interaction patterns and language usage, data visualization.
-4. Pınar Şen: Sentiment analysis with sıbjectivity scores and emotion analysis, preparing the README file.
+4. Pınar Şen: Sentiment analysis with subjectivity scores and emotion analysis, preparing the README file.
 
 Brainstorming for new feature ideas, division of work and determining the preprocessing steps were done as a team. 
 
