@@ -2,20 +2,20 @@
 # ChatGPT Grade Predictor
 ![WhatsApp Image 2024-01-19 at 19 31 54](banner4.png) <br>
 ### Project Overview
-The ChatGPT Grade Predictor is a Machine Learning project aimed at exploring the correlation between student interactions with ChatGPT and their assignment scores. Leveraging various techniques and numerous machine learning models, this project seeks to predict grades with a focus on creative and innovative approaches.
+The ChatGPT Grade Predictor is a Machine Learning project for the CS 412: Machine Learning course at Sabanci University. The project is aimed at exploring the correlation between student interactions with ChatGPT and their assignment scores. Leveraging various techniques and numerous machine learning models, this project seeks to predict grades with a focus on creative and innovative approaches.
 
 ### Dataset
-The dataset includes a collection of ChatGPT interaction logs in HTML format and corresponding assignment scores. Each log file is uniquely identified, enabling a match with the respective scores.
+The dataset includes a collection of ChatGPT interaction logs in HTML format and corresponding assignment scores. Each log file is uniquely identified, enabling a match with the respective scores. These HTML files can be located at the `project-material/dataset` folder.
 
 ### Objectives
-- To preprocess and analyse ChatGPT interaction data.
-- To engineer features that effectively capture the essence of the interactions.
+- To preprocess and analyse ChatGPT interaction data through the HTML files in our dataset.
+- To engineer features that effectively capture the essence of the interactions, and understand the patterns to predict the respective score for the homework for each student.
 - To develop and evaluate models capable of predicting assignment scores.
-- To explore creative and novel approaches in data handling and model creation.
+- To explore creative and novel approaches in data handling and model creation regarding grade prediction for homework through students' ChatGPT interaction.
 
 ## OVERVIEW OF THE REPOSITORY: 
 
-**1. Preprocessing:** cleans, transforms, and organizes raw data into a suitable format, ensuring it's free of inconsistencies and optimized for analysis <br> 
+**1. Preprocessing:** cleans, transforms, and organizes raw data into a suitable format, ensuring it is free of inconsistencies and optimized for analysis <br> 
 <img width="721" alt="Screenshot 2024-01-19 at 18 53 42" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/162c50ef-3e33-4089-8b03-e4659c112531"> <br> 
 Preprocessing steps
 
