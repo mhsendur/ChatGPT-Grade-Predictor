@@ -12,7 +12,7 @@ The dataset includes a collection of ChatGPT interaction logs in HTML format and
 - To develop and evaluate models capable of predicting assignment scores.
 - To explore creative and novel approaches in data handling and model creation.
 
-## I. OVERVIEW OF THE REPOSITORY: (_Link different script and code pieces used and explain their function for the project_)
+## OVERVIEW OF THE REPOSITORY: (_Link different script and code pieces used and explain their function for the project_)
 
 1. Preprocessing:
   1. link:
@@ -24,7 +24,7 @@ The dataset includes a collection of ChatGPT interaction logs in HTML format and
   1. link:
   2. function: the performance and accuracy of the model
 
-## II. METHODOLOGY: (_High-level explanation of things considered and solutions offered_.)
+## METHODOLOGY: (_High-level explanation of things considered and solutions offered_.)
 
 ## A. Preprocessing:
 
@@ -67,9 +67,9 @@ The dataset includes a collection of ChatGPT interaction logs in HTML format and
 - **Retroactive Check (Q1\_count, Q2\_count…):** Identifying if and how often users return to previous topics, suggesting review or confusion.
 - **Order of Questioning (solve\_one\_by\_one) :** Assessing whether the user followed a logical flow or jumped between questions in a disorganized manner.
 
-## III. RESULTS: (_Experimental findings supported by figures, tables etc.__)_
+## RESULTS: (_Experimental findings supported by figures, tables etc.__)_
 
-## IV. TEAM CONTRIBUTIONS: (_List all team members by their names and how they contributed to the project_)
+## TEAM CONTRIBUTIONS: (_List all team members by their names and how they contributed to the project_)
 
 1. İsmail Çakmak:
 2. Göktuğ Gökyılmaz:
