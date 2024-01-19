@@ -20,9 +20,9 @@ The dataset includes a collection of ChatGPT interaction logs in HTML format and
 1. Preprocessing:
    function: cleans, transforms, and organizes raw data into a suitable format, ensuring it's free of inconsistencies and optimized for analysis
  <img width="276" alt="Screenshot 2024-01-19 at 18 52 48" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/441666e7-4503-4fe4-8afe-6782fb79a989">
-  --> some cells need preprocessing and some do not
+--> some cells need preprocessing and some do not
 <img width="721" alt="Screenshot 2024-01-19 at 18 53 42" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/162c50ef-3e33-4089-8b03-e4659c112531">
-  --> preprocessing steps
+--> preprocessing steps
 
 3. Feature engineering:
    function: selects, manipulates, and transforms raw data into meaningful and relevant features that enhance the performance and accuracy of the model
@@ -30,11 +30,14 @@ The dataset includes a collection of ChatGPT interaction logs in HTML format and
 <img width="941" alt="Screenshot 2024-01-19 at 18 55 50" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/e12b76d2-35cc-487f-a7ec-c0808667e36b">
 looks for keywords and mathemetical expressions
 
+
 <img width="724" alt="Screenshot 2024-01-19 at 18 59 45" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/32762329-08bd-4473-9bed-64dd6e4db398">
 gives sentimental value of the user prompts by emotion analysis
 
+
 <img width="855" alt="Screenshot 2024-01-19 at 19 01 05" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/8047ac16-9bc0-4648-84ad-9b6312b75344">
 checks for the similarity of the question asked with the actual question
+
 
 <img width="986" alt="Screenshot 2024-01-19 at 19 01 16" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/23d06cf1-30a3-4ee4-9d2b-c0fdba543ada">
 checks if the questions were solved one by one or in a disorganized way
@@ -44,6 +47,7 @@ checks if the questions were solved one by one or in a disorganized way
 4. Results:
 function: shows the performance of the model
 <img width="483" alt="Screenshot 2024-01-19 at 19 17 35" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/417c7793-fdfc-41c8-be29-1b917926d845">
+
 Average R^2 and MSE values of the model with cross-validation and scalar
 
 ## METHODOLOGY: 
@@ -93,23 +97,30 @@ Average R^2 and MSE values of the model with cross-validation and scalar
 # RESULTS: 
 
 <img width="877" alt="Screenshot 2024-01-19 at 18 48 13" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/15192c28-11ae-452f-b880-61ef938ee1f9">
+
 Distrubiution of homework scores show how uneven and skewed the data is.
 
 <img width="901" alt="Screenshot 2024-01-19 at 18 48 55" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/e8d0151c-5f42-449c-b39d-dcbaff947ad9">
+
 Boxplot showing the distribution of grades given that "thanks" was used or not.
 
 ![heatmap_features](https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/f43dc6aa-8aa2-4974-8506-0772d7e082df)
+
 Heatmap of the existing features and added engineered features and their correlations shown on a heatmap.
 
 <img width="879" alt="Screenshot 2024-01-19 at 18 49 04" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/5681afa1-28db-4c98-b16a-6487d6229ec9">
+
 Code Patterns in GPT responses and the homework grades.
 
 <img width="483" alt="Screenshot 2024-01-19 at 19 17 35" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/eb47a89a-3ec9-4102-9478-cf8ba27dcf20">
+
 Average R^2 and MSE values of the model with cross-validation and scalar
 
 # TEAM CONTRIBUTIONS: (_List all team members by their names and how they contributed to the project_)
 
-1. İsmail Çakmak:
-2. Göktuğ Gökyılmaz:
-3. Mustafa Harun Şendur:
-4. Pınar Şen:
+1. İsmail Çakmak: Conversational dynamics and responsiveness, cross validation and normalization.
+2. Göktuğ Gökyılmaz: Question answering behavior and responsiveness, testing the subsets of features.
+3. Mustafa Harun Şendur: User interaction patterns and language usage, data visualization.
+4. Pınar Şen: Sentiment analysis and preparing the README file.
+
+Brainstorming for new feature ideas, division of work and determining the preprocessing steps were done as a team. 
