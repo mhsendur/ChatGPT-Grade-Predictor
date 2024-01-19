@@ -60,7 +60,6 @@ checks if the questions were solved one by one or in a disorganized way
 
 - **Emotion Analysis (disgust, fear, joy, sadness, surprise, trust, anticipation, positive, negative):** Utilizing tools for automated sentiment analysis to determine the emotional tone of user messages. Our hypothesis was to find a link between negative emotions such as disgust, sadness and fear and being confused or frustrated, which will have an effect on the grade of the homeworks.
 - - **Polarity and Subjectivity Scores (total\_subjectivity, avg\_subjectivity, total\_polarity, avg\_ polarity):** Quantifying the sentiment of user messages in terms of positivity/negativity (polarity) and objectivity/subjectivity. TextBlob library is used and insights about the overall sentiment and subjectivity of user interactions are provided.
-- - ** Categorization of Question Types (question_types): Checked whether the questions asked by the user are "conceptual", "factual" or "problem solving" questions.
 - **Friendliness Level:** Average friendliness of the users were assessed by analyzing greetings and polite expressions. We assumed a more friendlier tone could change the effectiveness of ChatGPT's tendency to solve questions. The mean vector of these words is computed using the Word2Vec model, resulting in a vector representation of "friendliness". The friendliness score is calculated by measuring the cosine similarity between the user text vector and the predefined "friendly" vector. We ended up deleting this feature because it did not improve the model and dowloaded 1.5 GB everytime the cell ran.
   
 2. **User Interaction Patterns and Language Use:**
@@ -117,7 +116,7 @@ Comparison of R2 scores of different methods.
 1. İsmail Çakmak: Conversational dynamics and responsiveness, cross validation and normalization.
 2. Göktuğ Gökyılmaz: Question answering behavior and responsiveness, testing the subsets of features.
 3. Mustafa Harun Şendur: User interaction patterns and language usage, data visualization.
-4. Pınar Şen: Sentiment analysis, question categorization and preparing the README file.
+4. Pınar Şen: Sentiment analysis with sıbjectivity scores and emotion analysis, preparing the README file.
 
 Brainstorming for new feature ideas, division of work and determining the preprocessing steps were done as a team. 
 
