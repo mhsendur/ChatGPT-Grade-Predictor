@@ -13,13 +13,13 @@ The dataset includes a collection of ChatGPT interaction logs in HTML format and
 - To develop and evaluate models capable of predicting assignment scores.
 - To explore creative and novel approaches in data handling and model creation.
 
-### OVERVIEW OF THE REPOSITORY: 
+## OVERVIEW OF THE REPOSITORY: 
 
 **1. Preprocessing:** cleans, transforms, and organizes raw data into a suitable format, ensuring it's free of inconsistencies and optimized for analysis <br> 
 <img width="721" alt="Screenshot 2024-01-19 at 18 53 42" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/162c50ef-3e33-4089-8b03-e4659c112531"> <br> 
 Preprocessing steps
 
-**3. Feature engineering:** selects, manipulates, and transforms raw data into meaningful and relevant features that enhance the performance and accuracy of the model
+**2. Feature engineering:** selects, manipulates, and transforms raw data into meaningful and relevant features that enhance the performance and accuracy of the model
    
 <img width="724" alt="Screenshot 2024-01-19 at 18 59 45" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/32762329-08bd-4473-9bed-64dd6e4db398"> <br> 
 gives sentimental value of the user prompts by emotion analysis
@@ -32,13 +32,13 @@ checks if the questions were solved one by one or in a disorganized way
 
                                 AND THERE ARE MANY MORE FEATURES!!!
 
-**4. Results:** shows the performance of the model
+**3. Results:** shows the performance of the model
 <img width="483" alt="Screenshot 2024-01-19 at 19 17 35" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/417c7793-fdfc-41c8-be29-1b917926d845"><br> 
 	Average R^2 and MSE values of the model with cross-validation and scalar
 
-### METHODOLOGY: 
+## METHODOLOGY: 
 
-## A. Preprocessing:
+### A. Preprocessing:
 
 1. Removing user data with less than 5 prompts
 2. Removing html tags
@@ -52,7 +52,7 @@ checks if the questions were solved one by one or in a disorganized way
 10. Feature scale normalization: ensures that all features contribute equally to the model training
 11. Cross-validation: assesses the performance of the model.
 
-## B. Feature Engineering:
+### B. Feature Engineering:
 
 1. **Sentiment Analysis:**
 
@@ -80,7 +80,7 @@ checks if the questions were solved one by one or in a disorganized way
 
 5. Other Features: All the included features that are not explained in detail above can be seen in the heatmap on the following section (promt\_avg\_char, respone\_avg\_char, smog\_index and the existing features).
    
-### RESULTS: 
+## RESULTS: 
 
 <img width="877" alt="Screenshot 2024-01-19 at 18 48 13" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/15192c28-11ae-452f-b880-61ef938ee1f9"> <br> 
 
@@ -110,7 +110,7 @@ Average R^2 and MSE values of the model with cross-validation and scalar
 
 Comparison of R2 scores of different methods.
 
-### TEAM CONTRIBUTIONS: 
+## TEAM CONTRIBUTIONS: 
 1. İsmail Çakmak: Conversational dynamics and responsiveness, cross validation and normalization.
 2. Göktuğ Gökyılmaz: Question answering behavior and responsiveness, testing the subsets of features.
 3. Mustafa Harun Şendur: User interaction patterns and language usage, data visualization.
