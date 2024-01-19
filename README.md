@@ -15,11 +15,11 @@ The dataset includes a collection of ChatGPT interaction logs in HTML format and
 
 ## OVERVIEW OF THE REPOSITORY: 
 
-**1. Preprocessing:** cleans, transforms, and organizes raw data into a suitable format, ensuring it is free of inconsistencies and optimized for analysis <br> 
+**1. Preprocessing:** During our preprocessing sections in our project we have taken action to clean, transform, and organize raw data into a suitable format, ensuring it is free of inconsistencies and optimized for analysis. <br> 
 <img width="721" alt="Screenshot 2024-01-19 at 18 53 42" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/162c50ef-3e33-4089-8b03-e4659c112531"> <br> 
 As a part of our preprocessing for the project can be seen above, we have worked on several approaches. These approaches during our preprocessing procedure have been explained in detail in our methodology section below. 
 
-**2. Feature engineering:** selects, manipulates, and transforms raw data into meaningful and relevant features that enhance the performance and accuracy of the model
+**2. Feature engineering:** For our Feature Engineering section in our project we have aimed to select, manipulate, and transform raw data into meaningful and relevant features that enhance the performance and accuracy of the model.
    
 <img width="724" alt="Screenshot 2024-01-19 at 18 59 45" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/32762329-08bd-4473-9bed-64dd6e4db398"> <br> 
 gives sentimental value of the user prompts by emotion analysis
