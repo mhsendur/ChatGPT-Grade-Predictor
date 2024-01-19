@@ -17,7 +17,7 @@ The dataset includes a collection of ChatGPT interaction logs in HTML format and
 
 **1. Preprocessing:** cleans, transforms, and organizes raw data into a suitable format, ensuring it is free of inconsistencies and optimized for analysis <br> 
 <img width="721" alt="Screenshot 2024-01-19 at 18 53 42" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/162c50ef-3e33-4089-8b03-e4659c112531"> <br> 
-Preprocessing steps
+As a part of our preprocessing for the project can be seen above, we have worked on several approaches. These approaches during our preprocessing procedure have been explained in detail in our methodology section below. 
 
 **2. Feature engineering:** selects, manipulates, and transforms raw data into meaningful and relevant features that enhance the performance and accuracy of the model
    
