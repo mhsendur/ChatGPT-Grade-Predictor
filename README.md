@@ -102,6 +102,8 @@ In this phase of the project, we focus on the following steps to train and evalu
   
 ## RESULTS: 
 
+Through our code where we have worked on the random selection of features automatically, we have aimed to get the best R^2 score. Through this implementation, we have produced the set of features which led us to get the best R^2 score in our project. We have also made use of other implementations to get better feature sets such as Information Gain. However, the result of these implementations did not lead to the sets of features to have a better R^2 score.
+
 <img width="877" alt="Screenshot 2024-01-19 at 18 48 13" src="https://github.com/mhsendur/ChatGPT-Grade-Predictor/assets/91570013/15192c28-11ae-452f-b880-61ef938ee1f9"> <br> 
 
 The distribution of homework scores shows how uneven and skewed the data is.
