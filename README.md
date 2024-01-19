@@ -72,6 +72,6 @@ The dataset includes a collection of ChatGPT interaction logs in HTML format and
 ## IV. TEAM CONTRIBUTIONS: (_List all team members by their names and how they contributed to the project_)
 
 1. İsmail Çakmak:
-2. Göktuğ Göktürk:
+2. Göktuğ Gökyılmaz:
 3. Mustafa Harun Sendur:
 4. Pınar Şen:
