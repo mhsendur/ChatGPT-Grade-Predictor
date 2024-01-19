@@ -40,18 +40,21 @@ checks if the questions were solved one by one or in a disorganized way
 
 ### A. Preprocessing:
 
-1. Removing html tags
+To explain the actions taken in the preprocessing part of our project we have aimed to work on several approaches: 
+
+1. Removing the HTML tags
 2. Converting text to lowercase
 3. Removing special characters and punctuation
 4. Tokenization
 5. Removing stop words
 6. Lemmatization
 
-1. Removing user data with less than 5 prompts
-9. Stratification: since the dataset is highly skewed, stratification ensures that each split (eg. training and testing sets) has a proportionate representation of the different classes or categories present in the dataset.
-10. Splitting the dataset into training and test.
-11. Feature scale normalization: ensures that all features contribute equally to the model training
-12. Cross-validation: assesses the performance of the model.
+Then we continued on our preprocessing procedure, being more considerate and careful after further examining the dataset. After this examination, we have decided to move on with the added preprocessing actions:
+
+7. Removing non-ASCII characters
+8. Removing words that include numbers
+9. Removing words that include less than 3 characters or more than 25 characters (Unnecessarily short or long words were not preserved due to their irrelevancy in the analysis)
+10. Removing user data with less than 5 prompts
 
 ### B. Feature Engineering:
 
